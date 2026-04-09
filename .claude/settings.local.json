@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/KIM/.claude/**)",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(cmd.exe /c \"where node 2>&1 & where npx 2>&1\")",
+      "Bash(powershell.exe -Command \"node --version; npx --version; Get-Command node -ErrorAction SilentlyContinue\")"
+    ]
+  }
+}

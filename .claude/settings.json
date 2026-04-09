@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"Get-Content 'c:\\\\Users\\\\KIM\\\\Desktop\\\\jungik\\\\thinking-note\\\\CLAUDE.md' -Raw\")",
+      "Bash(powershell.exe -Command \"Get-Item 'c:\\\\Users\\\\KIM\\\\Desktop\\\\jungik\\\\thinking-note\\\\CLAUDE.md' | Select-Object Length, LastWriteTime\")"
+    ]
+  }
+}
